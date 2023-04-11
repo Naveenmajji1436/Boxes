@@ -1,0 +1,97 @@
+/* Write your code here. */
+.heading {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #0f172a;
+}
+.sBoxContainer {
+  background-color: #fbbf24;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sBox {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Bree Serif";
+}
+
+.mBoxContainer {
+  background-color: #38bdf8;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mBox {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Bree Serif";
+}
+
+.lBoxContainer {
+  background-color: #ec4899;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lBox {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Bree Serif";
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 40px;
+  }
+  .mainContainer {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sBoxContainer {
+    margin-bottom: 15px;
+  }
+  .mBoxContainer {
+    margin-bottom: 15px;
+  }
+  .lBoxContainer {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .boxesContainer {
+    display: flex;
+    align-items: flex-end;
+  }
+  .sBoxContainer {
+    margin-right: 15px;
+  }
+  .mBoxContainer {
+    margin-right: 15px;
+  }
+  .lBoxContainer {
+    margin-right: 15px;
+  }
+}
